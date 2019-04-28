@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+    overwrite: true
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStop:
